@@ -10,6 +10,7 @@ class BlowerMouth{
     this.h = h;
     World.add(world, this.body);
   }
+  
 
   show() {
     let pos = this.body.position;
